@@ -1,0 +1,240 @@
+body {
+    background: #E9E9E9;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    height: 44px;
+    left: 0px;
+    top: 0px;
+    background: #1F2229;
+}
+
+.header p {
+    position: absolute;
+    width: 115px;
+    height: 16px;
+    left: 249px;
+    top: 0px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.header img {
+    position: absolute;
+    width: 87px;
+    height: 23.94px;
+    left: 142px;
+    top: 12px;
+}
+
+.container {
+    position: absolute;
+    width: 800px;
+    height: 700px;
+    left: 25%;
+    top: 50px;
+    text-align: center;
+
+    background: #FAF6F6;
+}
+
+.container h1 {
+    position: absolute;
+    width: 800px;
+    height: 42px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 42px;
+
+    color: #1F2229;
+}
+
+.container h2 {
+    position: absolute;
+    width: 750px;
+    height: 14px;
+    left: 25px;
+    top: 100px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+
+    color: #1F2229;
+}
+
+.container p {
+    position: absolute;
+    width: 90px;
+    height: 14px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.container input {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 242px;
+    height: 52px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+.container .date_header {
+    left: 114px;
+    top: 210px;
+}
+
+.container .date {
+    left: 114px;
+    top: 243px;
+}
+
+.container .deposit_term_header {
+    width: 120px;
+    left: 438px;
+    top: 210px;
+}
+
+.container .deposit_term {
+    left: 438px;
+    top: 243px;
+}
+
+.container .sum_deposit_header {
+    left: 114px;
+    top: 300px;
+}
+
+.container .sum_deposit {
+    left: 114px;
+    top: 333px;
+}
+
+.container .interest_rate_header {
+    width: 190px;
+    left: 438px;
+    top: 300px;
+}
+
+.container .interest_rate {
+    left: 438px;
+    top: 333px;
+}
+
+.container .replenishment_amount_header {
+    width: 170px;
+    left: 438px;
+    top: 390px;
+}
+
+.container .replenishment_amount {
+    left: 438px;
+    top: 420px;
+}
+
+.container .checkbox{
+
+    width: 25px;
+    height: 25px;
+    left: 114px;
+    top: 433px;
+}
+
+.container .checkbox_text {
+    position: absolute;
+    width: 224px;
+    height: 16px;
+    left: 154px;
+    top: 427px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.container .button_calc {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 172px;
+    height: 52px;
+    left: 114px;
+    top: 536px;
+
+    background: #33C4A0;
+    border: 1px solid #33C4A0;
+}
+
+.hr {
+    position: absolute;
+    width: 566px;
+    height: 0px;
+    left: 114px;
+    top: 616px;
+
+    border: 1px solid rgba(0, 0, 0, 0.61);
+
+    display: none;
+}
+
+.container .amountToBePaid {
+    position: absolute;
+    width: 150px;
+    height: 14px;
+    left: 129px;
+    top: 643px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+
+    color: #1F2229;
+
+    display: none;
+}
+
+#result {
+    position: absolute;
+    width: 300px;
+    height: 47px;
+    left: 80px;
+    top: 680px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #000000;
+}
